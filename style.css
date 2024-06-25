@@ -241,8 +241,9 @@ body::before {
 /* Responsive */
 @media (max-width: 768px) {
   .container {
+    margin-top: 30px;
     width: 100%;
-       height: fit-content;
+    height: fit-content;
     flex-direction: column-reverse;
   }
   .left-sec,
@@ -250,3 +251,4 @@ body::before {
     border-radius: 0;
   }
 }
+
