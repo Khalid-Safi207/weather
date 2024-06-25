@@ -12,7 +12,7 @@
 body {
   background-image: url(./img/weather.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 body::before {
   content: "";
