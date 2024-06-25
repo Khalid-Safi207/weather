@@ -241,10 +241,13 @@ body::before {
 /* Responsive */
 @media (max-width: 768px) {
   .container {
-    margin-top: 30px;
     width: 100%;
-    height: fit-content;
+
     flex-direction: column-reverse;
+    position: static;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
   }
   .left-sec,
   .right-sec {
