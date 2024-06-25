@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- CSS File  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="left-sec">
+        <div class="l-header">
+          <button id="btn">Search</button>
+          <input type="text" id="input" placeholder="Search Location" />
+        </div>
+        <div class="l-body">
+          <div>
+            <span>name</span>
+            <span class="name"></span>
+          </div>
+          <div>
+            <span>temp</span>
+            <span class="temp"></span>
+          </div>
+          <div>
+            <span>humidity</span>
+            <span class="humidity"></span>
+          </div>
+          <div>
+            <span>wind speed</span>
+            <span class="wind"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-sec">
+        <div class="r-header">
+          <h1 class="day"></h1>
+          <span class="date"></span>
+        </div>
+        <img src="" class="img r-body" alt="" />
+        <div class="r-footer">
+          <span class="r-deg"></span>
+          <span class="statue"></span>
+        </div>
+      </section>
+    </div>
+    <!-- JS File -->
+    <script src="./main.js"></script>
+  </body>
+</html>
