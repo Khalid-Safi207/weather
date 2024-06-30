@@ -6,7 +6,7 @@
 }
 :root {
   --Primary-Color: #1f9385;
-  --Primary-Color-Hover: #00ffe1af;
+  --Primary-Color-Hover: #00ad99d3;
   --Secondary-Color: #fff;
 }
 body {
@@ -166,7 +166,7 @@ body::before {
 .error {
   width: 300px;
   height: 300px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
