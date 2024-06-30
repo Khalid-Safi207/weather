@@ -46,10 +46,15 @@ btn.addEventListener('click',function(){
     })
    p.then(()=>{
     document.body.className = ""
-    inp.classList.remove('error')
-   }).catch(()=>{
-    inp.classList.add('error')
-    inp.value='';
+   }).catch(()=>{;
+        document.querySelector('.error').style.display = 'flex'
+    
+    setTimeout(() => {
+        document.querySelector('.error').style.display = 'none'
+        document.body.className = ''
+        inp.value = ''
+        inp.focus()
+    },2500);
    })
 })
 
